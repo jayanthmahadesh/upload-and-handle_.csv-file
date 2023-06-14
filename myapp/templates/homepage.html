@@ -8,6 +8,21 @@
 </head>
 <body>
     this is home page!!!
-    <img src="static/images/imageone.png" alt="">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- <img src="static/images/imageone.png" alt=""> -->
+    <form enctype="multipart/form-data" method="post">
+        {%csrf_token%}
+        <input type="file" name="file">
+        <button type="submit" >Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    sales of product line : <a href="/custom">Health and beauty</a> 
 </body>
 </html>
