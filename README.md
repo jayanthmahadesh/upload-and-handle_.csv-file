@@ -1,6 +1,4 @@
-# rentmedical
-
-uploading and handling .csv file
+# uploading and handling .csv file
 
 ## Tech Stack
 
